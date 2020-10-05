@@ -1,8 +1,8 @@
 pessoas = 0
-chocolates = 4
+chocolates = 100
 
 qtde = int(input("Quantidade: "))
-while (qtde <= chocolates and pessoas < 3):
+while (qtde <= chocolates and pessoas < 99):
     chocolates -= qtde
     pessoas += 1
     qtde = int(input("Quantidade: "))
