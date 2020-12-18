@@ -5,8 +5,8 @@ def somar(num):
     return total
 
 def somar_recursiva(num):
-    if (num == 1):
-        return 1
+    if (num == 0):
+        return 0
     return num + somar_recursiva(num - 1)
 
 # PP
